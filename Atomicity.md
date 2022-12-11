@@ -2,7 +2,7 @@
 
 - All queries in a transaction must succeed.
 - If one query fails, all prior successfull queries in the transaction should rollback.
-- If the database went down prior to a commit of a transaction,
+- If the database went down prior to a commit of a transaction.
 - All the successful queries in the transaction should rollback.
 
 | ACCOUNT_ID | BALANCE |
