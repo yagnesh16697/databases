@@ -16,7 +16,7 @@ Normal Forms are used to reduce redundancy and improve data integrity (1NF 2NF 3
 
 ### Transactions
 
-**Atomicity**: Each transaction is a single unit of execution.
-**Consistency**: Databse goes from one valid state to another.
-**Durability**: Past commit data is recoverable even after failure of system.
-**Isolation**: Concurrent execution == Sequential execution.
+1. **Atomicity**: Each transaction is a single unit of execution.
+2. **Consistency**: Databse goes from one valid state to another.
+3. **Durability**: Past commit data is recoverable even after failure of system.
+4. **Isolation**: Concurrent execution == Sequential execution.
