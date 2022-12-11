@@ -18,7 +18,7 @@ BEGIN TX1                                   BEGIN TX2
       Product 1,50
       Product 2,80
 
-2.                                          UPDATE SALES SET QNT = QNT + 5 WHERE PID = 1
+                                            2. UPDATE SALES SET QNT = QNT + 5 WHERE PID = 1
 
 
 3. SELECT SUM(QNT*PRICE) FROM SALES
