@@ -29,9 +29,6 @@ BEGIN TX1                                   BEGIN TX2
 
 COMMIT TX1                                  ROLLBACK TX2
 
-
-
-
 ```
 
 2. Non-repeatable Reads
