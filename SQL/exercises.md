@@ -75,3 +75,45 @@ CREATE TABLE departments (
 
     - Create a transaction that updates the salary of all employees in the Sales department to $60,000.
     - Create a transaction that deletes all employees who have a salary less than $30,000.
+
+12. Using the HAVING clause:
+
+    - Select all departments with an average salary greater than $70,000 from the employees table grouped by department.
+
+13. Using the UNION operator:
+
+    - Select all employees who work in the Sales department from the employees table and all employees who have a job title of "Manager" from the same table.
+    - Combine the results of two queries that retrieve the names of all departments and all job titles from the departments and employees tables, respectively.
+
+14. Using the IN operator:
+
+    - Select all employees who work in departments with IDs 1, 3, or 5 from the employees table.
+    - Select all employees who have job titles of either "Manager" or "Director" from the employees table.
+
+15. Using the EXISTS operator:
+
+    - Select all departments that have at least one employee from the departments table.
+    - Select all employees who have a manager from the employees table.
+
+16. Using the LIKE operator:
+
+    - Select all employees whose last name starts with "M" from the employees table.
+    - Select all employees whose first name contains the substring "an" from the employees table.
+
+17. Using the CASE statement:
+
+    - Select all employees from the employees table and add a column that displays "High" if their salary is greater than $80,000, "Medium" if their salary is between $50,000 and $80,000, and "Low" if their salary is less than $50,000.
+
+18. Using the GROUP_CONCAT function:
+
+    - Select all departments from the departments table and concatenate the first names of all employees who work in each department into a single string.
+
+19. Using the LIMIT clause:
+
+    - Select the top 5 highest paid employees from the employees table.
+    - Select the 10 most recently hired employees from the employees table.
+
+20. Using the DATE functions:
+
+    - Select all employees from the employees table who were hired in January.
+    - Select all employees from the employees table whose hire date was more than 5 years ago.
