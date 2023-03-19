@@ -117,3 +117,83 @@ CREATE TABLE departments (
 
     - Select all employees from the employees table who were hired in January.
     - Select all employees from the employees table whose hire date was more than 5 years ago.
+
+21. Using correlated subqueries:
+
+    - Select all employees from the employees table and add a column that displays their department's average salary. Use a correlated subquery to calculate the average salary for each employee's department.
+
+22. Using self joins:
+
+    - Select all employees from the employees table and add a column that displays the name of their manager. Use a self join on the employees table to retrieve this information.
+
+23. Using window functions:
+
+    - Select all employees from the employees table and add a column that displays their salary rank within their department. Use a window function to calculate the rank.
+
+24. Using pivot tables:
+
+    - Create a pivot table that shows the total salary for each department broken down by job title from the employees table.
+
+25. Using recursive queries:
+
+    - Select all employees who report directly or indirectly (i.e., through one or more levels of managers) to a particular manager from the employees table. Use a recursive query to traverse the employee hierarchy.
+
+26. Using temporary tables:
+
+    - Create a temporary table that stores the total salary for each department from the employees table. Then, use this temporary table to join with the departments table to retrieve additional department information.
+
+27. Using subqueries to modify data:
+
+    - Update the salary of all employees in the Sales department to be 10% higher than the average salary of all employees in that department. Use a subquery to calculate the average salary.
+
+28. Using common table expressions:
+
+    - Select all employees from the employees table and add a column that displays the name of their department's manager. Use a common table expression to retrieve this information.
+
+29. Using stored procedures:
+
+    - Create a stored procedure that retrieves all employees from the employees table and returns the result set sorted by salary in descending order.
+
+30. Using triggers:
+
+    - Create a trigger that automatically updates the salary column of the employees table whenever the job_title column of the same table is modified.
+
+31. Using full-text search:
+
+    - Select all employees from the employees table whose job title contains the phrase "software engineer". Use full-text search to perform this query.
+
+32. Using JSON data:
+
+    - Create a table that stores JSON data for each employee in the employees table. Then, use JSON functions to extract specific information from this data.
+
+33. Using XML data:
+
+    - Create a table that stores XML data for each employee in the employees table. Then, use XML functions to extract specific information from this data.
+
+34. Using spatial data:
+
+    - Create a table that stores spatial data (e.g., latitude and longitude coordinates) for each employee in the employees table. Then, use spatial functions to perform calculations on this data.
+
+35. Using time-series data:
+
+    - Create a table that stores time-series data (e.g., stock prices) for a particular security. Then, use time-series functions to calculate moving averages or other metrics.
+
+36. Using partitioning:
+
+    - Partition the employees table by department so that data for each department is stored in a separate physical file. Then, use partition functions to retrieve data efficiently.
+
+37. Using indexing:
+
+    - Add indexes to the employees table to improve query performance. Experiment with different types of indexes (e.g., clustered vs. non-clustered, covering, filtered) to see how they affect query execution time.
+
+38. Using database views:
+
+    - Create a view that joins the employees and departments tables and displays only the columns that are relevant for reporting purposes. Use this view to retrieve data for reports.
+
+39. Using database backups and restores:
+
+    - Create a backup of your SQL database and restore it to a different server. Verify that the restored database contains the same data as the original database.
+
+40. Using replication:
+
+    - Set up replication between two SQL servers so that changes made to the employees table on one server are automatically propagated to the other server. Test this setup by making changes on both servers and verifying that the changes are replicated correctly.
