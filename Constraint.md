@@ -75,3 +75,18 @@ CREATE TABLE Students (
 ```
 
 - In this example, if no employment status is specified during the insertion of an employee record, the default value of 'Active' will be assigned to the EmploymentStatus column.
+
+5. Alter Constraint
+
+```sql
+-- Adding a unique constraint
+ALTER TABLE Employees
+ADD CONSTRAINT UC_Email UNIQUE (Email);
+
+-- Adding a foreign key constraint
+ALTER TABLE Orders
+ADD CONSTRAINT FK_CustomerID
+FOREIGN KEY (CustomerID)
+REFERENCES Customers(CustomerID);
+
+```
