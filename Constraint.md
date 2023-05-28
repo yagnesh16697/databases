@@ -90,3 +90,5 @@ FOREIGN KEY (CustomerID)
 REFERENCES Customers(CustomerID);
 
 ```
+
+- These ALTER TABLE statements modify the structure of the tables by adding the specified constraints. It is important to note that constraints can be added to existing tables using the ALTER TABLE statement, providing flexibility in enforcing data integrity rules even after the table is created.
